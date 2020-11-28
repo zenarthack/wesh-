@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title> <em>Ma première page avec du style</title>
+    <style type="text/css">
+  body {
+   padding-left: 15em;
+  font-family: 'Arial Black', Gadget, sans-seri;
+    color: #AD4F09;
+    background-color: #FAF0C5 }
+	  ul.navbar {
+	     list-style-type: none;
+    padding: 2;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 10em }
+	h1 {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif }
+	ul.navbar li {
+    background: #856D4D;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid #2F1B0C }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: #F5F5DC }
+  a:visited {
+    color: #F0C300 }
+	  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+  </style>
+</head>
+
+<body>
+
+<!-- Menu de navigation du site -->
+<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="reflexions.html">Réflexions</a>
+  <li><a href="ville.html">Ma ville</a>
+  <li><a href="liens.html">Liens</a>
+</ul>
+
+<!-- Contenu principal -->
+<h1> <strong> Ma première page avec du style </strong> </h1>
+
+<p>Bienvenue sur ma page avec du style! 
+
+<p>Il lui manque des images, mais au moins, elle a du style. Et elle a des liens, même s'ils ne mènent nulle part...
+
+
+<p>Je devrais étayer, mais je ne sais comment encore.
+
+<!-- Signer et dater la page, c'est une question de politesse! -->
+<address>Réaliser <br>
+  par moi.</address>
+
+</body>
+</html>
